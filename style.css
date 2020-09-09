@@ -1,0 +1,19 @@
+.navcolor {
+    background-color: #c6212d;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card:hover{
+    -webkit-box-shadow: 24px 27px 30px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 27px 30px -23px rgba(0,0,0,0.75);
+    box-shadow: 24px 27px 30px -23px rgba(0,0,0,0.75);
+    /* animation: bounce 0.5s linear; */
+    cursor: url("pokeball.png"), auto;
+}
