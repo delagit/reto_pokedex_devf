@@ -1,5 +1,12 @@
+.body{
+    background-color: whitesmoke;
+}
+
 .navcolor {
-    background-color: #c6212d;
+    background-color: #3363af;
+}
+.titulo {
+    color: white;
 }
 
 .container {
