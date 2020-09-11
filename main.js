@@ -79,6 +79,10 @@ function pokedexGrid(pokemon){
     var modalBody = document.createElement("div");
     modalBody.className = "modal-body my-modal-body";
 
+    /* var tipos = document.createElement("span");
+    tipos.innerHTML = pokemon.type;
+    pokemon.className = "badge badge-success p-2 m-1";
+ */
     var fotoPokemon = document.createElement("img");
     fotoPokemon.id = "fotoPokemon";
     fotoPokemon.src = pokemon.art_url;
@@ -108,6 +112,7 @@ function pokedexGrid(pokemon){
     modalContent.appendChild(modalHeader);
     modalHeader.appendChild(modalTitle);
     modalContent.appendChild(modalBody);
+    // modalContent.appendChild(tipos);
     modalBody.appendChild(fotoPokemon);
     modalBody.appendChild(texto);
     modalBody.appendChild(description);
