@@ -15,6 +15,7 @@
 
 .card {
     border-radius: 15px;
+    box-shadow: rgba(0,0,0,.16) 0 1px 4px,#333 0 0 0 3px;
 }
 
 .card:hover{
@@ -23,5 +24,5 @@
     box-shadow: 24px 27px 30px -23px rgba(0,0,0,0.75);
     /* animation: bounce 0.5s linear; */
     cursor: url("pokeball.png"), auto;
-    border: red solid 2px;
+    border: red solid 3px;
 }
